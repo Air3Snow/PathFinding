@@ -1,0 +1,13 @@
+D:\GitRepoWork\AStar\AStarProj\AStarProj\obj\Debug\netcoreapp3.1\AStarProj.csprojAssemblyReference.cache
+D:\GitRepoWork\AStar\AStarProj\AStarProj\obj\Debug\netcoreapp3.1\AStarProj.AssemblyInfoInputs.cache
+D:\GitRepoWork\AStar\AStarProj\AStarProj\obj\Debug\netcoreapp3.1\AStarProj.AssemblyInfo.cs
+D:\GitRepoWork\AStar\AStarProj\AStarProj\obj\Debug\netcoreapp3.1\AStarProj.csproj.CoreCompileInputs.cache
+D:\GitRepoWork\AStar\AStarProj\AStarProj\bin\Debug\netcoreapp3.1\AStarProj.exe
+D:\GitRepoWork\AStar\AStarProj\AStarProj\bin\Debug\netcoreapp3.1\AStarProj.deps.json
+D:\GitRepoWork\AStar\AStarProj\AStarProj\bin\Debug\netcoreapp3.1\AStarProj.runtimeconfig.json
+D:\GitRepoWork\AStar\AStarProj\AStarProj\bin\Debug\netcoreapp3.1\AStarProj.runtimeconfig.dev.json
+D:\GitRepoWork\AStar\AStarProj\AStarProj\bin\Debug\netcoreapp3.1\AStarProj.dll
+D:\GitRepoWork\AStar\AStarProj\AStarProj\bin\Debug\netcoreapp3.1\AStarProj.pdb
+D:\GitRepoWork\AStar\AStarProj\AStarProj\obj\Debug\netcoreapp3.1\AStarProj.dll
+D:\GitRepoWork\AStar\AStarProj\AStarProj\obj\Debug\netcoreapp3.1\AStarProj.pdb
+D:\GitRepoWork\AStar\AStarProj\AStarProj\obj\Debug\netcoreapp3.1\AStarProj.genruntimeconfig.cache
