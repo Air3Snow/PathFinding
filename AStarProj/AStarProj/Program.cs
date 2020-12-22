@@ -35,15 +35,21 @@ namespace AStarProj
         static void Main(string[] args)
         {
             Console.WriteLine("开始A*测试");
-            GridCell start = new GridCell(3, 1, true);
-            GridCell end = new GridCell(5, 8, true);
+
+            int startX = 3;
+            int startY = 1;
+            int endX = 5;
+            int endY = 8;
             AStarPathFinding pf = new AStarPathFinding();
-            Stack<GridCell> pathStack;
+            Stack<GridCell> pathStack = new Stack<GridCell>();
 
             System.Diagnostics.Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start(); //  开始监视代码运行时间
+            for (int i = 0; i < 1000; i++)
+            {
+                pathStack = pf.PathFinding(startX, startY, endX, endY, mapCells);
+            }
             
-            pathStack = pf.PathFinding(start, end, mapCells);
             
             stopwatch.Stop(); //  停止监视
             TimeSpan timespan = stopwatch.Elapsed; //  获取当前实例测量得出的总时间
@@ -61,8 +67,8 @@ namespace AStarProj
 
                 Console.WriteLine("输出结果:");
 
-                mapCells[start.X, start.Y] = 5;
-                mapCells[end.X, end.Y] = 5;
+                mapCells[startX, startY] = 5;
+                mapCells[endX, endY] = 5;
                 findPathMap = (int[,])mapCells.Clone();
                 GridCell node;
 
