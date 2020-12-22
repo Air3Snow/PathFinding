@@ -7,7 +7,7 @@ namespace AStarProj
     /// <summary>
     /// 网格对象
     /// </summary>
-    class GridCell
+    public class GridCell 
     {
         public int X { get; set; }
         public int Y { get; set; }
@@ -49,7 +49,9 @@ namespace AStarProj
             return HashCode.Combine(X, Y);
         }
 
-        
-
+        public override string ToString()
+        {
+            return "X:"+X+" , "+" Y:"+Y + " , " + " G:" + G + " , " + " H:" + H + " , " + " F:" + F;
+        }
     }
 }
