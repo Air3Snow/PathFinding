@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitRepoWork\\AStar\\AStarProj\\AStarProj\\AStarProj.csproj",
+      "projectUniqueName": "D:\\GitRepoWork\\PathFinding\\AStarProj\\AStarProj\\AStarProj.csproj",
       "projectName": "AStarProj",
-      "projectPath": "D:\\GitRepoWork\\AStar\\AStarProj\\AStarProj\\AStarProj.csproj",
+      "projectPath": "D:\\GitRepoWork\\PathFinding\\AStarProj\\AStarProj\\AStarProj.csproj",
       "packagesPath": "C:\\Users\\Vincet\\.nuget\\packages\\",
-      "outputPath": "D:\\GitRepoWork\\AStar\\AStarProj\\AStarProj\\obj\\",
+      "outputPath": "D:\\GitRepoWork\\PathFinding\\AStarProj\\AStarProj\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vincet\\AppData\\Roaming\\NuGet\\NuGet.Config",

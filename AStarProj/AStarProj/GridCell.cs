@@ -35,6 +35,12 @@ namespace AStarProj
             this.isWalkable = isWalkable;
         }
 
+        public GridCell(int x, int y)
+        {
+            X = x;
+            Y = y;
+        }
+
         // 重写比较方法
         public override bool Equals(object obj)
         {
@@ -43,7 +49,8 @@ namespace AStarProj
                    Y == cell.Y;
         }
 
-        // 重写hashcode,以防万一
+
+        // 重写hashcode
         public override int GetHashCode()
         {
             return HashCode.Combine(X, Y);

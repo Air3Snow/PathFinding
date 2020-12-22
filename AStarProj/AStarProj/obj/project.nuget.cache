@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hD5jKwhvHqfQTRjKg/99GpJVHI2ZF2abLR2quVe0lrA6qb2dibebD8a7Bd2+5Iq92xSi4O1wQqLjFMw5gvwrZA==",
+  "dgSpecHash": "qGDIr74+whND+pba4luOk4IYH+fAOEqmSCa/sD2gpLZsgftLyLJ71H194xher5F1c7VyqG4+1YB1EreSIcnJXA==",
   "success": true,
-  "projectFilePath": "D:\\GitRepoWork\\AStar\\AStarProj\\AStarProj\\AStarProj.csproj",
+  "projectFilePath": "D:\\GitRepoWork\\PathFinding\\AStarProj\\AStarProj\\AStarProj.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
