@@ -44,15 +44,17 @@ namespace AStarProj
         // 重写比较方法
         public override bool Equals(object obj)
         {
+
             return obj is GridCell cell &&
                    X == cell.X &&
                    Y == cell.Y;
         }
 
 
-        // 重写hashcode
+        // 重写hashcode,为啥.net 4.7没有这个方法
         public override int GetHashCode()
         {
+            Console.WriteLine("调用hashcode方法");
             return HashCode.Combine(X, Y);
         }
 

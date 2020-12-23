@@ -99,7 +99,7 @@ namespace AStarProj
             }
 
             // 将结果存进栈(先进后出)
-            GridCell findNode = openList.Find(c => c.GetHashCode() == endNode.GetHashCode());
+            GridCell findNode = openList.Find(c => c.Equals(endNode));
             // 起点不加入栈
             while (findNode.parent != null)
             {
@@ -246,7 +246,7 @@ namespace AStarProj
             {
                 for (int j = 0; j < mapCells.GetLength(1); j++)
                 {
-                    GridCell gridCell = new GridCell(i, j, mapCells[i, j] == 0);
+                    GridCell gridCell = new GridCell(i, j, mapCells[i, j] < 1);
                     nodes[i, j] = gridCell;
 
                 }
