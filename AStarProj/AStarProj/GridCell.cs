@@ -60,7 +60,7 @@ namespace AStarProj
 
         public override string ToString()
         {
-            return "X:"+X+" , "+" Y:"+Y + " , " + " G:" + G + " , " + " H:" + H + " , " + " F:" + F;
+            return "( X:" + X + " , " + " Y:" + Y + " , " + " G:" + G + " , " + " H:" + H + " , " + " F:" + F + " )";
         }
     }
 }

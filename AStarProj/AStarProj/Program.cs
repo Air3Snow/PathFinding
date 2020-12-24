@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 
 namespace AStarProj
@@ -222,9 +223,8 @@ namespace AStarProj
             double minutes = timespan.TotalMinutes;  // 总分钟
             double seconds = timespan.TotalSeconds;  //  总秒数
             double milliseconds = timespan.TotalMilliseconds;  //  总毫秒数
-            Console.WriteLine(milliseconds);
-            Console.WriteLine(seconds);
-            Console.WriteLine(minutes);
+            Console.WriteLine("寻路花费 " + milliseconds + "毫秒");
+            Console.WriteLine("寻路花费 " + seconds + "秒");
 
             #region 成功则打印结果
             if (pathStack != null)
@@ -271,13 +271,6 @@ namespace AStarProj
 
         }
 
-        // 读取ini文件测试
-        static void Test2()
-        {
-            string pathDB = "D:/GitRepo/Chuanqi/server/DB/地图/3.map";
-
-
-        }
 
 
     }

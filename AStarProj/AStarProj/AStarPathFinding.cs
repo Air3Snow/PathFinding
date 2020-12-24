@@ -49,8 +49,19 @@ namespace AStarProj
             nodes[x, y].isWalkable = isWalkable;
         }
 
+        /// <summary>
+        /// 使用多线程优化寻路算法
+        /// 三个线程
+        /// </summary>
+        /// <param name="startX"></param>
+        /// <param name="startY"></param>
+        /// <param name="endX"></param>
+        /// <param name="endY"></param>
+        /// <param name="mapCells"></param>
+        public void OptimizedPathFinding(int startX, int startY, int endX, int endY, int[,] mapCells)
+        {
 
-
+        }
 
 
         /// <summary>
@@ -153,7 +164,7 @@ namespace AStarProj
         /// <param name="currentNode"></param>
         private void HandleNeighbors(GridCell currentNode)
         {
-
+            // Console.WriteLine(currentNode);
             int x = currentNode.X;
             int y = currentNode.Y;
 
