@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AStarProj
+namespace AStarPathfinding
 {
     /// <summary>
     /// 网格对象
@@ -52,15 +52,25 @@ namespace AStarProj
 
 
         // 重写hashcode,为啥.net 4.7没有这个方法
+        /* public override int GetHashCode()
+         {
+             Console.WriteLine("调用hashcode方法");
+             return HashCode.Combine(X, Y);
+         }*/
+
+        // 使用这个hash方法
         public override int GetHashCode()
         {
-            Console.WriteLine("调用hashcode方法");
-            return HashCode.Combine(X, Y);
+            int result = 17;
+            result = 31 * result + X.GetHashCode();
+            result = 31 * result + Y.GetHashCode();
+
+            return result;
         }
 
         public override string ToString()
         {
-            return "( X:" + X + " , " + " Y:" + Y + " , " + " G:" + G + " , " + " H:" + H + " , " + " F:" + F + " )";
+            return "X:"+X+" , "+" Y:"+Y + " , " + " G:" + G + " , " + " H:" + H + " , " + " F:" + F;
         }
     }
 }
